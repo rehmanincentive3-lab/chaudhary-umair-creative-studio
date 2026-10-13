@@ -169,24 +169,38 @@ All media assets are optimized, locally hosted, and ready for global CDN deliver
 
 ## 5. Production Build & Verification Commands
 
-The website features an automated 7-suite verification pipeline integrated into `npm run build`:
+### Production Build (`npm run build`)
+The production build is engineered to run seamlessly across serverless edge hosting environments (such as Vercel, Cloudflare Pages, Netlify) without requiring a local Chrome binary or external browser runtime:
 
 ```powershell
-# Run the complete production build & verification pipeline:
+# Run the cloud/production-safe build:
 npm run build
 
 # Or on Windows PowerShell:
 npm.cmd run build
 ```
 
-### What `npm run build` Verifies:
-1. **Link & Asset Verification (`test-links.js`):** Checks all 36 DOM IDs, anchor links, video files, posters, and image paths.
-2. **Conversion & CTA Verification (`test-task12-conversion.js`):** Confirms all 7 conversion pathways, WhatsApp URL format, and phone/email targets.
-3. **SEO & Metadata Verification (`test-task13-seo.js`):** Validates meta title, meta description, single H1, semantic `<main>`, Schema.org `@graph`, robots.txt, and sitemap.xml.
-4. **Release Candidate Chrome CDP Audit (`release-candidate-audit.js`):** Launches real Google Chrome, verifies runtime console errors (0), layout shift (0 CLS), and FCP (<700ms).
-5. **Security Audit (`security-audit.js`):** Scans for exposed secrets (0), verifies 0 npm CVEs, tests path traversal protection (HTTP 403), and validates HTTP security headers.
-6. **Content Consistency Audit (`content-audit.js`):** Scans for placeholder text, verifies consistent business phone `03021468799`, email `chaudharyumair799@gmail.com`, and location.
-7. **Master Compliance Audit (`audit.js`):** Asserts 100% adherence to all 16 client design and functional specifications.
+#### What `npm run build` Verifies:
+1. **Link & Asset Verification (`test-links.js`):** Checks all 36 DOM IDs, anchor links, video files, posters, and image paths on disk.
+2. **SEO & Metadata Verification (`test-task13-seo.js`):** Validates meta title, meta description, single H1, semantic `<main>`, Schema.org `@graph`, robots.txt, and sitemap.xml.
+3. **Dedicated About Page Verification (`test-about-page.js`):** Validates about.html structure, headings, 7 mandatory sections, 4 workflow steps, 5 benefits, and business information.
+4. **Content Consistency Audit (`content-audit.js`):** Scans for placeholder text, verifies consistent business phone `03021468799`, email `chaudharyumair799@gmail.com`, and location.
+5. **Master Compliance & Multi-Page Audit (`audit.js`):** Asserts 100% adherence to all 16 client design and functional specifications, all 6 HTML pages, vercel.json, 6 vertical 9:16 videos and posters, 12 project artworks, strict brand color palette, and the 3-video gallery carousel track and controls.
+
+### Local Browser & Runtime Audits (Separate Commands)
+For deep local end-to-end browser audits that leverage Chrome DevTools Protocol (CDP) and child process servers:
+
+```powershell
+# Run all local browser tests:
+npm run test:local
+
+# Or run individual browser / security audits:
+npm run test:conversion   # Validates interactive form submissions & WhatsApp routing via Chrome
+npm run test:carousel     # Validates gallery 3-video simultaneous carousel interaction & mobile swipe via Chrome
+npm run test:release      # Validates Chrome runtime console errors (0), layout shift (0 CLS), and FCP (<700ms)
+npm run test:browser      # Validates automated headless browser rendering
+npm run test:security     # Validates local path traversal & HTTP security headers on localhost
+```
 
 ---
 

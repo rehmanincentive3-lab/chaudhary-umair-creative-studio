@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-13T23:09:59.490Z",
+  "timestamp": "2026-10-13T23:32:20.578Z",
   "build": {
     "status": "PENDING"
   },
@@ -98,11 +98,11 @@
   },
   "security": {},
   "performance": {
-    "domInteractive": 922,
-    "domContentLoaded": 939,
-    "loadEvent": 1970,
-    "firstPaintMs": 984,
-    "firstContentfulPaintMs": 984
+    "domInteractive": 464,
+    "domContentLoaded": 473,
+    "loadEvent": 1697,
+    "firstPaintMs": 496,
+    "firstContentfulPaintMs": 496
   },
   "codeQuality": {
     "consoleErrorsCount": 0,

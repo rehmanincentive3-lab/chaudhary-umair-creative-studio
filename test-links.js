@@ -66,3 +66,10 @@ for (const asset of jsAssets) {
 console.log('\n--- SUMMARY ---');
 console.log('HREF Errors:', hrefErrors);
 console.log('SRC/Asset Errors:', srcErrors);
+
+if (hrefErrors > 0 || srcErrors > 0) {
+  console.error('[FAIL] Link or asset errors detected.');
+  process.exit(1);
+} else {
+  console.log('[PASS] All links and assets verified successfully.\n');
+}

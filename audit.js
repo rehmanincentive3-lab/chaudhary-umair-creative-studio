@@ -5,13 +5,21 @@ console.log('=== RUNNING FINAL MASTER WEBSITE AUDIT ===\n');
 
 let errors = 0;
 
-// 1. Core Files
+// 1. Core Files & Multi-Page Architecture
 const coreFiles = [
   'index.html',
+  'about.html',
+  'services.html',
+  'portfolio.html',
+  'gallery.html',
+  'contact.html',
   'css/style.css',
   'js/main.js',
   'assets/hero-umair.png',
-  'assets/logo.png'
+  'assets/logo.png',
+  'sitemap.xml',
+  'robots.txt',
+  'vercel.json'
 ];
 
 coreFiles.forEach(f => {
@@ -23,6 +31,15 @@ coreFiles.forEach(f => {
     errors++;
   }
 });
+
+// Verify Gallery.html 3-Video Carousel Elements
+const galleryContent = fs.readFileSync(path.join(__dirname, 'gallery.html'), 'utf-8');
+if (galleryContent.includes('id="reelsTrack"') && galleryContent.includes('id="reelsCounter"') && galleryContent.includes('id="reelsPrevBtn"') && galleryContent.includes('id="reelsNextBtn"')) {
+  console.log('[PASS] Gallery 3-video carousel track and controls present');
+} else {
+  console.error('[FAIL] Gallery 3-video carousel elements missing in gallery.html');
+  errors++;
+}
 
 // 2. Videos & Posters (6 Original 9:16 Vertical Videos)
 for (let i = 1; i <= 6; i++) {
