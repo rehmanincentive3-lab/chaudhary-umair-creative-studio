@@ -1,0 +1,112 @@
+{
+  "timestamp": "2026-10-13T23:09:59.490Z",
+  "build": {
+    "status": "PENDING"
+  },
+  "routes": {
+    "root": {
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html; charset=utf-8"
+    },
+    "index": {
+      "status": 200,
+      "ok": true,
+      "contentType": "text/html; charset=utf-8"
+    },
+    "robots": {
+      "status": 200,
+      "ok": true,
+      "contentType": "text/plain; charset=utf-8"
+    },
+    "sitemap": {
+      "status": 200,
+      "ok": true,
+      "contentType": "application/xml; charset=utf-8"
+    },
+    "notFound": {
+      "status": 404,
+      "ok": false,
+      "contentType": "text/plain"
+    }
+  },
+  "visualQA": {
+    "Desktop": {
+      "windowWidth": 1440,
+      "docWidth": 1425,
+      "bodyWidth": 1425,
+      "hasHorizontalScroll": false
+    },
+    "Tablet": {
+      "windowWidth": 768,
+      "docWidth": 768,
+      "bodyWidth": 768,
+      "hasHorizontalScroll": false
+    },
+    "Mobile": {
+      "windowWidth": 390,
+      "docWidth": 390,
+      "bodyWidth": 390,
+      "hasHorizontalScroll": false
+    },
+    "Small Mobile": {
+      "windowWidth": 320,
+      "docWidth": 320,
+      "bodyWidth": 320,
+      "hasHorizontalScroll": false
+    }
+  },
+  "assets": {
+    "totalImages": 14,
+    "totalVideos": 6,
+    "missingAssets": 0
+  },
+  "functionality": {
+    "navLinks": [
+      "index.html",
+      "about.html",
+      "services.html",
+      "portfolio.html",
+      "gallery.html",
+      "contact.html"
+    ],
+    "videoCarousel": {
+      "initialTitle": "Cinematic AI Commercial & Creative Production",
+      "nextTitle": "Complete Brand Identity Solutions",
+      "prevTitle": "Cinematic AI Commercial & Creative Production",
+      "nextWorked": true,
+      "prevWorked": true
+    },
+    "audioToggle": {
+      "initialMuted": true,
+      "toggledMuted": false,
+      "works": true
+    },
+    "filterTabsCount": 8,
+    "contactChannels": {
+      "tel": "tel:03021468799",
+      "whatsapp": "https://wa.me/923021468799",
+      "email": "mailto:chaudharyumair799@gmail.com"
+    }
+  },
+  "seo": {},
+  "accessibility": {
+    "hasSkipLink": true,
+    "totalImages": 16,
+    "emptyAltsCount": 0,
+    "focusableElementsCount": 65
+  },
+  "security": {},
+  "performance": {
+    "domInteractive": 922,
+    "domContentLoaded": 939,
+    "loadEvent": 1970,
+    "firstPaintMs": 984,
+    "firstContentfulPaintMs": 984
+  },
+  "codeQuality": {
+    "consoleErrorsCount": 0,
+    "errors": []
+  },
+  "checklist": {}
+}

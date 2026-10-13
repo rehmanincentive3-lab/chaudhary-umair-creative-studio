@@ -1,0 +1,290 @@
+{
+  "timestamp": "2026-10-13T22:59:01.925Z",
+  "browser": "Google Chrome Headless (CDP)",
+  "viewportTests": {
+    "desktop": {
+      "resolution": "1440 × 900",
+      "horizontalScroll": {
+        "windowWidth": 1440,
+        "docScrollWidth": 1425,
+        "bodyScrollWidth": 1425,
+        "hasHorizontalScroll": false,
+        "overflowingElementsCount": 0,
+        "overflowingSamples": []
+      },
+      "navigation": {
+        "navMenuVisible": true,
+        "mobileToggleHidden": true,
+        "navLinksCount": 5,
+        "navLinks": [
+          {
+            "text": "Home",
+            "href": "#home"
+          },
+          {
+            "text": "About",
+            "href": "#about"
+          },
+          {
+            "text": "Services",
+            "href": "#services"
+          },
+          {
+            "text": "Portfolio",
+            "href": "#portfolio"
+          },
+          {
+            "text": "Contact",
+            "href": "#contact"
+          }
+        ]
+      },
+      "video": {
+        "videoElementPresent": true,
+        "isPausedInitially": true,
+        "isMutedInitially": true,
+        "noAutoplayWithSound": true,
+        "autoplayAttr": false,
+        "frameWidth": 310,
+        "frameHeight": 551,
+        "aspectRatio": "1.78",
+        "expected9_16": "1.78",
+        "initialTitle": "Cinematic AI Commercial & Creative Production",
+        "initialCategory": "AI Video Creation",
+        "initialCounter": "01 / 06"
+      },
+      "carouselNav": {
+        "initial": {
+          "title": "Cinematic AI Commercial & Creative Production",
+          "counter": "01 / 06"
+        },
+        "afterNext": {
+          "title": "Complete Brand Identity Solutions",
+          "counter": "02 / 06"
+        },
+        "afterPrev": {
+          "title": "Cinematic AI Commercial & Creative Production",
+          "counter": "01 / 06"
+        },
+        "nextWorked": true,
+        "prevWorked": true
+      },
+      "filterTabs": {
+        "all": {
+          "btnFound": true,
+          "visibleCardsCount": 12
+        },
+        "graphic-design": {
+          "btnFound": true,
+          "visibleCardsCount": 1
+        },
+        "web-development": {
+          "btnFound": true,
+          "visibleCardsCount": 2
+        },
+        "ui-ux": {
+          "btnFound": true,
+          "visibleCardsCount": 1
+        },
+        "ai-video": {
+          "btnFound": true,
+          "visibleCardsCount": 1
+        },
+        "branding": {
+          "btnFound": true,
+          "visibleCardsCount": 3
+        },
+        "ecommerce": {
+          "btnFound": true,
+          "visibleCardsCount": 2
+        },
+        "social-media": {
+          "btnFound": true,
+          "visibleCardsCount": 2
+        }
+      },
+      "lightbox": {
+        "totalCards": 12,
+        "cardTitle": "TechNova",
+        "modalOpened": true,
+        "modalTitleMatches": true,
+        "modalHasImgSrc": true,
+        "modalClosed": true
+      },
+      "images": {
+        "totalImages": 16,
+        "brokenImagesCount": 0,
+        "brokenList": []
+      }
+    },
+    "tablet": {
+      "resolution": "768 × 1024",
+      "horizontalScroll": {
+        "windowWidth": 768,
+        "docScrollWidth": 768,
+        "bodyScrollWidth": 768,
+        "hasHorizontalScroll": false,
+        "overflowingElementsCount": 0,
+        "overflowingSamples": []
+      },
+      "navigation": {
+        "toggleVisible": true,
+        "menuHiddenInitially": true,
+        "menuOpensOnToggle": true,
+        "ariaExpandedWhenOpen": "true",
+        "menuClosesOnLinkClick": true,
+        "ariaExpandedWhenClosed": "false"
+      },
+      "video": {
+        "frameWidth": 270,
+        "frameHeight": 480,
+        "aspectRatio": "1.78",
+        "expected9_16": "1.78",
+        "fitsInViewport": true
+      }
+    },
+    "mobile": {
+      "resolution": "390 × 844",
+      "horizontalScroll": {
+        "windowWidth": 390,
+        "docScrollWidth": 390,
+        "bodyScrollWidth": 390,
+        "hasHorizontalScroll": false,
+        "overflowingElementsCount": 0,
+        "overflowingSamples": []
+      },
+      "navigation": {
+        "mobileToggleVisible": true,
+        "opensProperly": true,
+        "closesProperly": true
+      },
+      "video": {
+        "videoPaused": true,
+        "videoMuted": true,
+        "noAutoplayWithSound": true,
+        "frameWidth": 230,
+        "frameHeight": 409,
+        "aspectRatio": "1.78",
+        "expected9_16": "1.78",
+        "fitsInMobile": true,
+        "prevBtnSize": {
+          "width": 38,
+          "height": 38
+        },
+        "nextBtnSize": {
+          "width": 38,
+          "height": 38
+        }
+      },
+      "swipeGesture": {
+        "titleBefore": "Cinematic AI Commercial & Creative Production",
+        "titleAfter": "Complete Brand Identity Solutions",
+        "counterBefore": "01 / 06",
+        "counterAfter": "02 / 06",
+        "swipeLeftSuccess": true
+      },
+      "contactForm": {
+        "emptyValidationWorks": true,
+        "emptyErrorMessage": "Please enter your full name (minimum 2 characters).",
+        "validSubmissionWorks": true,
+        "whatsappDirectLink": "https://wa.me/923021468799?text=Hello%20Chaudhary%20Umair%2C%0A%0AMy%20name%20is%20Hassan%20Malik%20(hassan%40example.com).%0AI%20am%20interested%20in%20your%20Graphic%20Design%20services.%0A%0AProject%20Overview%3A%0ANeed%20eCommerce%20store%20and%20branding%20package",
+        "emailDirectLink": "mailto:chaudharyumair799@gmail.com?subject=Project%20Inquiry%3A%20Graphic%20Design%20-%20Hassan%20Malik&body=Hello%20Chaudhary%20Umair%2C%0A%0AMy%20name%20is%20Hassan%20Malik%20(hassan%40example.com).%0AI%20am%20interested%20in%20your%20Graphic%20Design%20services.%0A%0AProject%20Overview%3A%0ANeed%20eCommerce%20store%20and%20branding%20package"
+      }
+    },
+    "smallMobile": {
+      "resolution": "320 × 568",
+      "horizontalScroll": {
+        "windowWidth": 320,
+        "docScrollWidth": 320,
+        "bodyScrollWidth": 320,
+        "hasHorizontalScroll": false,
+        "overflowingElementsCount": 0,
+        "overflowingSamples": []
+      }
+    }
+  },
+  "keyboardNavigation": {
+    "totalFocusableElements": 63,
+    "sampleFocusChecks": [
+      {
+        "tagName": "a",
+        "id": "",
+        "className": "skip-to-content",
+        "text": "Skip to portfolio",
+        "isFocused": true,
+        "outline": "rgb(0, 0, 0) none 3px",
+        "boxShadow": "rgba(201, 169, 110, 0.4) 0px 8px 24px 0px"
+      },
+      {
+        "tagName": "a",
+        "id": "",
+        "className": "brand-logo",
+        "text": "",
+        "isFocused": true,
+        "outline": "rgb(245, 241, 232) none 3px",
+        "boxShadow": "none"
+      },
+      {
+        "tagName": "a",
+        "id": "",
+        "className": "nav-link",
+        "text": "Home",
+        "isFocused": true,
+        "outline": "rgba(245, 241, 232, 0.55) none 3px",
+        "boxShadow": "none"
+      },
+      {
+        "tagName": "a",
+        "id": "",
+        "className": "nav-link",
+        "text": "About",
+        "isFocused": true,
+        "outline": "rgba(245, 241, 232, 0.55) none 3px",
+        "boxShadow": "none"
+      },
+      {
+        "tagName": "a",
+        "id": "",
+        "className": "nav-link",
+        "text": "Services",
+        "isFocused": true,
+        "outline": "rgba(245, 241, 232, 0.55) none 3px",
+        "boxShadow": "none"
+      },
+      {
+        "tagName": "a",
+        "id": "",
+        "className": "nav-link active",
+        "text": "Portfolio",
+        "isFocused": true,
+        "outline": "rgb(245, 241, 232) none 3px",
+        "boxShadow": "none"
+      }
+    ],
+    "modalEscapeKeyCloses": true
+  },
+  "routes": {
+    "/": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8"
+    },
+    "/index.html": {
+      "status": 200,
+      "contentType": "text/html; charset=utf-8"
+    },
+    "/robots.txt": {
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8"
+    },
+    "/sitemap.xml": {
+      "status": 200,
+      "contentType": "application/xml; charset=utf-8"
+    },
+    "/non-existent-sample": {
+      "status": 404,
+      "contentType": "text/plain"
+    }
+  },
+  "consoleErrors": [],
+  "networkFailures": []
+}

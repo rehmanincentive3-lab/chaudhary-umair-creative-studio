@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Test browser profiles & logs
+.chrome-test*
+*.log
+
+# Raw source archives (production assets are organized in assets/)
+IMAGE/
+VIDEO/
+
+# Test screenshots & reports
+task10-*.png
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db

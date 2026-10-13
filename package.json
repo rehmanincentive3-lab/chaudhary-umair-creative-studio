@@ -1,0 +1,29 @@
+{
+  "name": "chaudhary-umair-creative-studio",
+  "version": "1.0.0",
+  "description": "Portfolio website for Chaudhary Umair Creative Studio",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test-links.js && node test-task8-browser.js && node test-task12-conversion.js && node test-task13-seo.js && node security-audit.js && node content-audit.js && node audit.js",
+    "test:security": "node security-audit.js",
+    "test:content": "node content-audit.js",
+    "test:conversion": "node test-task12-conversion.js",
+    "test:seo": "node test-task13-seo.js",
+    "test:about": "node test-about-page.js",
+    "test:carousel": "node test-multipage-and-carousel.js",
+    "test:release": "node release-candidate-audit.js",
+    "test:cdp": "node test-browser-cdp.js",
+    "build": "node test-links.js && node test-task12-conversion.js && node test-task13-seo.js && node test-about-page.js && node test-multipage-and-carousel.js && node release-candidate-audit.js && node security-audit.js && node content-audit.js && node audit.js"
+  },
+  "keywords": [
+    "creative-studio",
+    "portfolio",
+    "graphic-design",
+    "web-development",
+    "ai-video",
+    "branding"
+  ],
+  "author": "Chaudhary Umair",
+  "license": "ISC"
+}
