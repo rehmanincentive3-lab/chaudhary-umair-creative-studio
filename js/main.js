@@ -295,7 +295,10 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: "BRANDING",
       subtitle: "Branding • Logo Design",
       image: "assets/projects/project-1-technova.png",
-      desc: "TechNova premium gold-embossed brand identity system, including custom monogram geometry, luxury packaging design, and brand guideline documentation."
+      desc: "TechNova premium gold-embossed brand identity system, including custom monogram geometry, luxury packaging design, and brand guideline documentation.",
+      objective: "Establish an authoritative, high-prestige visual identity for an enterprise software consulting firm.",
+      approach: "Constructed a mathematical geometric monogram combining gold-foil letterforms with minimal Swiss typography and dark slate background.",
+      deliverables: ["Vector Monogram & Mark", "Brand Identity Guidelines", "Luxury Stationery & Mockups"]
     },
     {
       id: 2,
@@ -304,7 +307,10 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: "WEB DEVELOPMENT",
       subtitle: "Web Development • UI/UX",
       image: "assets/projects/project-2-luxury-furniture.png",
-      desc: "An architectural interior and luxury furniture digital presence featuring high-performance responsive web layouts, interactive room showcases, and refined typography."
+      desc: "An architectural interior and luxury furniture digital presence featuring high-performance responsive web layouts, interactive room showcases, and refined typography.",
+      objective: "Create an architectural digital showcase for a bespoke handcrafted interior furnishing studio.",
+      approach: "Engineered high-performance editorial layouts with responsive grid scaling, fluid room navigation, and sub-second load times.",
+      deliverables: ["Responsive Web Architecture", "Interactive Room Catalog", "Performance Optimization"]
     },
     {
       id: 3,
@@ -313,7 +319,10 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: "AI VIDEO",
       subtitle: "AI Video • Motion Graphics",
       image: "assets/projects/project-3-travel-promo.png",
-      desc: "Cinematic landscape motion visuals generated using state-of-the-art AI video synthesis and color graded for modern digital promotional campaigns."
+      desc: "Cinematic landscape motion visuals generated using state-of-the-art AI video synthesis and color graded for modern digital promotional campaigns.",
+      objective: "Produce cinematic video teaser visuals for a premium expedition travel agency.",
+      approach: "Choreographed high-dynamic AI landscape synthesis with precision temporal consistency and golden-hour color grading.",
+      deliverables: ["9:16 Vertical Reel Master", "Cinematic AI Prompts", "Color Graded Assets"]
     },
     {
       id: 4,
@@ -322,7 +331,10 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: "SOCIAL MEDIA",
       subtitle: "Graphic Design • Social Media",
       image: "assets/projects/project-4-product-ad.png",
-      desc: "High-impact social media advertising suite for flagship mobile devices, structured with clean hierarchy, dark charcoal backdrops, and gold accent styling."
+      desc: "High-impact social media advertising suite for flagship mobile devices, structured with clean hierarchy, dark charcoal backdrops, and gold accent styling.",
+      objective: "Drive conversion and engagement for a flagship smartphone digital ad campaign.",
+      approach: "Designed high-contrast dark-mode graphics with glowing champagne gold lighting accents and bold feature typography.",
+      deliverables: ["Multi-Platform Ad Creatives", "Social Story Formats", "Vector Feature Badges"]
     },
     {
       id: 5,
@@ -331,7 +343,10 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: "E-COMMERCE",
       subtitle: "Web Development • E-commerce",
       image: "assets/projects/project-5-shoe-store.png",
-      desc: "Full-scale modern digital storefront featuring intuitive shopping navigation, product catalog filters, smooth checkout flows, and responsive mobile architecture."
+      desc: "Full-scale modern digital storefront featuring intuitive shopping navigation, product catalog filters, smooth checkout flows, and responsive mobile architecture.",
+      objective: "Develop a seamless mobile-first e-commerce interface for a designer athletic footwear boutique.",
+      approach: "Streamlined customer purchase flow with instant product filtering, sticky cart triggers, and accessible checkout ergonomics.",
+      deliverables: ["E-Commerce Storefront UI", "Product Catalog Grid", "Cart & Checkout Flow"]
     },
     {
       id: 6,
@@ -340,7 +355,10 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: "BRANDING",
       subtitle: "Logo Design • Brand Identity",
       image: "assets/projects/project-6-business-branding.png",
-      desc: "Comprehensive executive branding suite for corporate leadership, integrating bespoke stationery, business cards, foil badges, and consistent digital brand direction."
+      desc: "Comprehensive executive branding suite for corporate leadership, integrating bespoke stationery, business cards, foil badges, and consistent digital brand direction.",
+      objective: "Design a cohesive executive identity suite for a boutique corporate management consultancy.",
+      approach: "Paired bespoke geometric typography with foil-stamped business cards, letterheads, and corporate presentation templates.",
+      deliverables: ["Executive Stationery Suite", "Print-Ready Vector Files", "Digital Presentation Deck"]
     },
     {
       id: 7,
@@ -349,7 +367,10 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: "WEB DEVELOPMENT",
       subtitle: "Bespoke Web Development • UI/UX",
       image: "assets/projects/project-7-aura-digital.jpg",
-      desc: "Aura bespoke digital luxury platform engineered with fluid animations, micro-interactions, dark aesthetic architecture, and gold typography."
+      desc: "Aura bespoke digital luxury platform engineered with fluid animations, micro-interactions, dark aesthetic architecture, and gold typography.",
+      objective: "Craft an immersive web experience for an avant-garde digital luxury and lifestyle agency.",
+      approach: "Implemented smooth micro-interactions, dark aesthetic architecture, custom typography hierarchies, and mobile touch optimization.",
+      deliverables: ["Interactive Portfolio UI", "Custom CSS Micro-Animations", "Full-Stack Deployment"]
     },
     {
       id: 8,
@@ -358,7 +379,10 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: "E-COMMERCE",
       subtitle: "E-Commerce • Luxury Fragrance",
       image: "assets/projects/project-8-maison-store.jpg",
-      desc: "High-end bespoke e-commerce boutique for artisanal fragrances, crafted with seamless cart transitions, multi-device layouts, and refined product storytelling."
+      desc: "High-end bespoke e-commerce boutique for artisanal fragrances, crafted with seamless cart transitions, multi-device layouts, and refined product storytelling.",
+      objective: "Build an artisanal online boutique celebrating sensory storytelling and limited-edition perfumery.",
+      approach: "Created an editorial product catalog with ingredient narratives, atmospheric background gradients, and frictionless checkout.",
+      deliverables: ["Bespoke E-Commerce UI", "Fragrance Storytelling Layouts", "Mobile-Optimized Cart"]
     },
     {
       id: 9,
@@ -367,7 +391,10 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: "BRANDING",
       subtitle: "Brand Guidelines • Stationery Suite",
       image: "assets/projects/project-9-brand-identity.jpg",
-      desc: "An elaborate corporate identity suite consisting of tactile embossed stationery, letterheads, packaging envelopes, and luxury gold-stamped guidelines book."
+      desc: "An elaborate corporate identity suite consisting of tactile embossed stationery, letterheads, packaging envelopes, and luxury gold-stamped guidelines book.",
+      objective: "Deliver a comprehensive institutional visual system for a high-growth financial technology firm.",
+      approach: "Formulated a unified brand book encompassing typography rules, color accessibility standards, stationery, and packaging assets.",
+      deliverables: ["40-Page Brand Guideline Book", "Stationery & Packaging System", "Digital Asset Library"]
     },
     {
       id: 10,
@@ -376,7 +403,10 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: "SOCIAL MEDIA",
       subtitle: "Creative Direction • Campaign Design",
       image: "assets/projects/project-10-social-campaign.jpg",
-      desc: "Curated editorial social campaign design for luxury fashion labels, establishing consistent visual grids, carousel templates, and responsive story formats."
+      desc: "Curated editorial social campaign design for luxury fashion labels, establishing consistent visual grids, carousel templates, and responsive story formats.",
+      objective: "Elevate digital engagement and brand coherence across multi-channel social feeds for a fashion brand.",
+      approach: "Developed reusable editorial templates, carousel post frameworks, and high-engagement promotional banners.",
+      deliverables: ["Editorial Carousel Templates", "Stories & Reels Graphics", "Social Asset Toolkit"]
     },
     {
       id: 11,
@@ -385,7 +415,10 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: "UI/UX DESIGN",
       subtitle: "Architecture • Digital Experience",
       image: "assets/projects/project-11-aurum-architecture.jpg",
-      desc: "Editorial architectural showcase website highlighting interior spaces, high-resolution photography, bespoke curation, and multi-display responsive design."
+      desc: "Editorial architectural showcase website highlighting interior spaces, high-resolution photography, bespoke curation, and multi-display responsive design.",
+      objective: "Present luxury architectural and interior residential spaces through a gallery-style digital experience.",
+      approach: "Leveraged minimalist typography, full-bleed photography grids, and smooth transitions to highlight material craftsmanship.",
+      deliverables: ["Architectural Gallery UI", "Responsive Touch Lightbox", "SEO Metadata Optimization"]
     },
     {
       id: 12,
@@ -394,7 +427,10 @@ document.addEventListener('DOMContentLoaded', () => {
       categoryLabel: "GRAPHIC DESIGN",
       subtitle: "Studio Workspace • Visual Systems",
       image: "assets/projects/project-12-creative-workstation.jpg",
-      desc: "Pan-system visual direction showcasing comprehensive digital branding systems, multi-screen responsive testing, and studio creative workflows."
+      desc: "Pan-system visual direction showcasing comprehensive digital branding systems, multi-screen responsive testing, and studio creative workflows.",
+      objective: "Establish a comprehensive studio workspace and multi-disciplinary visual design framework.",
+      approach: "Unified print, digital, and motion workflows with standardized color spaces, asset management, and client review systems.",
+      deliverables: ["Integrated Design System", "Multi-Screen Quality Checks", "Production Pipeline Setup"]
     }
   ];
 
@@ -427,6 +463,13 @@ document.addEventListener('DOMContentLoaded', () => {
             <h3 class="project-title">${escapeHtml(p.title)}</h3>
             <span class="project-subtitle">${escapeHtml(p.subtitle)}</span>
             <p class="project-desc">${escapeHtml(p.desc)}</p>
+            <div class="project-specs">
+              <div class="project-spec-item"><span class="project-spec-label">Objective:</span> <span class="project-spec-val">${escapeHtml(p.objective)}</span></div>
+              <div class="project-spec-item"><span class="project-spec-label">Approach:</span> <span class="project-spec-val">${escapeHtml(p.approach)}</span></div>
+              <div class="project-deliverables-pills">
+                ${(p.deliverables || []).map(d => `<span class="project-deliv-tag">${escapeHtml(d)}</span>`).join('')}
+              </div>
+            </div>
           </div>
           <div class="project-footer">
             <span class="project-view-btn">
@@ -488,6 +531,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const lightboxCategory = document.getElementById('lightboxCategory');
   const lightboxTitle = document.getElementById('lightboxTitle');
   const lightboxDesc = document.getElementById('lightboxDesc');
+  const lightboxSpecs = document.getElementById('lightboxSpecs');
   const lightboxClose = document.getElementById('lightboxClose');
 
   let activeLightboxProject = null;
@@ -500,6 +544,25 @@ document.addEventListener('DOMContentLoaded', () => {
     lightboxCategory.textContent = project.categoryLabel;
     lightboxTitle.textContent = project.title;
     lightboxDesc.textContent = project.desc;
+
+    if (lightboxSpecs) {
+      lightboxSpecs.innerHTML = `
+        <div class="lightbox-spec-row">
+          <strong>Objective:</strong>
+          <span>${escapeHtml(project.objective)}</span>
+        </div>
+        <div class="lightbox-spec-row">
+          <strong>Approach:</strong>
+          <span>${escapeHtml(project.approach)}</span>
+        </div>
+        <div class="lightbox-spec-row">
+          <strong>Scope:</strong>
+          <div class="lightbox-deliv-list">
+            ${(project.deliverables || []).map(d => `<span class="project-deliv-tag">${escapeHtml(d)}</span>`).join('')}
+          </div>
+        </div>
+      `;
+    }
 
     lightboxModal.classList.add('active');
     document.body.style.overflow = 'hidden';
@@ -621,12 +684,15 @@ document.addEventListener('DOMContentLoaded', () => {
       const nameInput = document.getElementById('clientName');
       const emailInput = document.getElementById('clientEmail');
       const serviceSelect = document.getElementById('serviceType');
+      const budgetSelect = document.getElementById('projectBudget');
       const detailsInput = document.getElementById('projectDetails');
 
       const name = nameInput ? nameInput.value.trim() : '';
       const email = emailInput ? emailInput.value.trim() : '';
       const serviceValue = serviceSelect ? serviceSelect.value : '';
       const serviceText = serviceSelect && serviceSelect.selectedOptions[0] ? serviceSelect.selectedOptions[0].text : serviceValue;
+      const budgetValue = budgetSelect ? budgetSelect.value : '';
+      const budgetText = budgetSelect && budgetSelect.selectedOptions[0] && budgetSelect.value ? budgetSelect.selectedOptions[0].text : 'To Be Discussed';
       const details = detailsInput ? detailsInput.value.trim() : '';
 
       // Field Validation
@@ -643,6 +709,12 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
+      if (budgetSelect && !budgetValue) {
+        showFeedback('Please select your target project budget tier.', 'error');
+        budgetSelect?.focus();
+        return;
+      }
+
       if (!details || details.length < 5) {
         showFeedback('Please enter your project overview (minimum 5 characters).', 'error');
         detailsInput?.focus();
@@ -650,7 +722,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       // Prepare direct delivery channels (WhatsApp: 03021468799, Email: chaudharyumair799@gmail.com)
-      const messageText = `Hello Chaudhary Umair,\n\nMy name is ${name} (${email}).\nI am interested in your ${serviceText} services.\n\nProject Overview:\n${details}`;
+      const messageText = `Hello Chaudhary Umair,\n\nMy name is ${name} (${email}).\nI am interested in your ${serviceText} services.\nTarget Budget: ${budgetText}\n\nProject Overview:\n${details}`;
       const whatsappUrl = `https://wa.me/923021468799?text=${encodeURIComponent(messageText)}`;
       const mailtoUrl = `mailto:chaudharyumair799@gmail.com?subject=${encodeURIComponent(`Project Inquiry: ${serviceText} - ${name}`)}&body=${encodeURIComponent(messageText)}`;
 

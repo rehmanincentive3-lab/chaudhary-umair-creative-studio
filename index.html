@@ -727,6 +727,18 @@
           </div>
 
           <div class="form-group">
+            <label for="projectBudget" class="form-label">Project Budget (USD)</label>
+            <select id="projectBudget" class="form-select" required>
+              <option value="" disabled selected>Select your budget tier</option>
+              <option value="under-500">&lt; $500 (Essential Design / Single Deliverable)</option>
+              <option value="500-1500">$500 - $1,500 (Standard Brand / Small Web Project)</option>
+              <option value="1500-3000">$1,500 - $3,000 (Complete Brand &amp; Web Platform)</option>
+              <option value="above-3000">$3,000+ (Full Studio Enterprise Retainer / Multi-Media)</option>
+              <option value="custom">Custom / To Be Discussed</option>
+            </select>
+          </div>
+
+          <div class="form-group">
             <label for="projectDetails" class="form-label">Project Overview</label>
             <textarea id="projectDetails" class="form-textarea" placeholder="Tell me about your goals, timeline, and vision..." maxlength="3000" required></textarea>
           </div>
@@ -801,6 +813,7 @@
         <span class="lightbox-category" id="lightboxCategory"></span>
         <h3 class="lightbox-title" id="lightboxTitle"></h3>
         <p class="lightbox-desc" id="lightboxDesc"></p>
+        <div class="lightbox-specs" id="lightboxSpecs"></div>
         <div class="lightbox-action" style="margin-top: 1.4rem;">
           <a href="#contact" class="btn-primary" id="lightboxInquireBtn">
             Inquire About This Service
