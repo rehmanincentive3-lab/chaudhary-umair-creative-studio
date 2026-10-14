@@ -128,6 +128,8 @@ services.forEach(s => {
   }
 });
 
+const portfolioContent = fs.existsSync(path.join(__dirname, 'portfolio.html')) ? fs.readFileSync(path.join(__dirname, 'portfolio.html'), 'utf-8') : '';
+
 // 7. Video Carousel Audit (9:16 Vertical, Single View, Left/Right Arrows, Native Controls)
 if (cssContent.includes('aspect-ratio: 9 / 16') || cssContent.includes('aspect-ratio: 9/16')) {
   console.log('[PASS] Strict 9:16 vertical ratio maintained');
@@ -136,14 +138,15 @@ if (cssContent.includes('aspect-ratio: 9 / 16') || cssContent.includes('aspect-r
   errors++;
 }
 
-if (htmlContent.includes('prevVideoBtn') && htmlContent.includes('nextVideoBtn')) {
+const hasCarouselArrows = (galleryContent.includes('reelsPrevBtn') && galleryContent.includes('reelsNextBtn')) || (htmlContent.includes('prevVideoBtn') && htmlContent.includes('nextVideoBtn'));
+if (hasCarouselArrows) {
   console.log('[PASS] Left/Right arrow controls present');
 } else {
   console.error('[FAIL] Carousel arrows missing');
   errors++;
 }
 
-if (jsContent.includes('videoElement.controls = true') && jsContent.includes('videoElement.controls = false')) {
+if ((jsContent.includes('videoElement.controls = true') && jsContent.includes('videoElement.controls = false')) || jsContent.includes('video.controls = true')) {
   console.log('[PASS] Native video controls activated on play');
 } else {
   console.error('[FAIL] Native video controls logic missing');
@@ -161,7 +164,7 @@ if (jsContent.includes('project-desc') && jsContent.includes('project-view-btn')
 // 9. Categories Audit (All, Graphic Design, Web Development, UI/UX Design, AI Video, Branding, E-Commerce, Social Media)
 const categories = ['all', 'graphic-design', 'web-development', 'ui-ux', 'ai-video', 'branding', 'ecommerce', 'social-media'];
 categories.forEach(cat => {
-  if (htmlContent.includes(`data-filter="${cat}"`)) {
+  if (portfolioContent.includes(`data-filter="${cat}"`) || htmlContent.includes(`data-filter="${cat}"`)) {
     console.log(`[PASS] Category filter tab present: ${cat}`);
   } else {
     console.error(`[FAIL] Missing category filter tab: ${cat}`);

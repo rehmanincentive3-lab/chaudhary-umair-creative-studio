@@ -648,22 +648,18 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Active section indicator on scroll
-  const sections = document.querySelectorAll('section[id]');
-  window.addEventListener('scroll', () => {
-    const scrollY = window.pageYOffset;
-    sections.forEach(current => {
-      const sectionHeight = current.offsetHeight;
-      const sectionTop = current.offsetTop - 120;
-      const sectionId = current.getAttribute('id');
-      const navItem = document.querySelector(`.nav-menu a[href*="${sectionId}"]`);
-      if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
-        navItem?.classList.add('active');
-      } else {
-        navItem?.classList.remove('active');
-      }
-    });
-  }, { passive: true });
+  // Enforce active nav link matching current page URL in multi-page architecture
+  const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+  document.querySelectorAll('.nav-menu .nav-link').forEach(link => {
+    const href = link.getAttribute('href');
+    if (href === currentPath || (currentPath === '' && href === 'index.html')) {
+      link.classList.add('active');
+      link.setAttribute('aria-current', 'page');
+    } else if (href && !href.startsWith('#')) {
+      link.classList.remove('active');
+      link.removeAttribute('aria-current');
+    }
+  });
 
   // Contact form submission with real validation and honest delivery
   const contactForm = document.getElementById('contactForm');

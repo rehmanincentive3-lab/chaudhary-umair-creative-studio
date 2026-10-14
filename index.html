@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chaudhary Umair Creative Studio | Creative Designer & Web Developer</title>
+  <title>Chaudhary Umair Creative Studio | Creative Designer &amp; Web Developer</title>
   <meta name="description" content="Chaudhary Umair Creative Studio - Transforming ideas into stunning digital experiences through premium graphic design, website development, UI/UX, and cinematic AI visual direction. Ahmad Pur Sial, District Jhang, Punjab, Pakistan.">
   <meta name="author" content="Chaudhary Umair">
   <meta name="robots" content="index, follow, max-image-preview:large">
@@ -19,7 +19,7 @@
   <!-- Open Graph / Social Sharing -->
   <meta property="og:site_name" content="Chaudhary Umair Creative Studio">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Chaudhary Umair Creative Studio | Creative Designer & Web Developer">
+  <meta property="og:title" content="Chaudhary Umair Creative Studio | Creative Designer &amp; Web Developer">
   <meta property="og:description" content="Transforming ideas into stunning digital experiences through premium graphic design, website development, UI/UX, and cinematic AI visual direction. Ahmad Pur Sial, District Jhang, Punjab, Pakistan.">
   <meta property="og:image" content="assets/hero-umair.png">
   <meta property="og:image:alt" content="Chaudhary Umair at creative studio workstation">
@@ -27,7 +27,7 @@
 
   <!-- Twitter / X Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Chaudhary Umair Creative Studio | Creative Designer & Web Developer">
+  <meta name="twitter:title" content="Chaudhary Umair Creative Studio | Creative Designer &amp; Web Developer">
   <meta name="twitter:description" content="Transforming ideas into stunning digital experiences through premium graphic design, website development, UI/UX, and cinematic AI visual direction. Ahmad Pur Sial, District Jhang, Punjab, Pakistan.">
   <meta name="twitter:image" content="assets/hero-umair.png">
   <meta name="twitter:image:alt" content="Chaudhary Umair at creative studio workstation">
@@ -99,15 +99,16 @@
 <body>
 
   <!-- Accessibility Skip Link -->
-  <a href="#portfolio" class="skip-to-content">Skip to portfolio</a>
+  <a href="#mainContent" class="skip-to-content">Skip to content</a>
 
   <!-- ==========================================================================
        HEADER / NAVBAR
+       Multi-page navigation: Home -> Services -> Portfolio -> Gallery -> About -> Contact
        ========================================================================== -->
   <header class="site-header" id="navbar">
     <div class="container nav-inner">
       <!-- Logo -->
-      <a href="#home" class="brand-logo" aria-label="Chaudhary Umair Creative Studio Home">
+      <a href="index.html" class="brand-logo" aria-label="Chaudhary Umair Creative Studio Home">
         <div class="logo-badge">
           <img src="assets/logo.png" alt="Chaudhary Umair Creative Studio Logo" width="230" height="48">
         </div>
@@ -115,11 +116,11 @@
 
       <!-- Desktop & Mobile Navigation Menu -->
       <nav class="nav-menu" id="navMenu">
-        <a href="index.html" class="nav-link active">Home</a>
-        <a href="about.html" class="nav-link">About</a>
+        <a href="index.html" class="nav-link active" aria-current="page">Home</a>
         <a href="services.html" class="nav-link">Services</a>
         <a href="portfolio.html" class="nav-link">Portfolio</a>
         <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="about.html" class="nav-link">About</a>
         <a href="contact.html" class="nav-link">Contact</a>
         <a href="contact.html" class="btn-primary mobile-menu-cta">
           Start a Project
@@ -152,452 +153,339 @@
       </div>
     </div>
   </header>
+
   <main id="mainContent">
 
+    <!-- ==========================================================================
+         1. HERO SECTION
+         Master reference standard: No video in Hero. Preserves visual card artwork.
+         ========================================================================== -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-grid">
+        <!-- Left Column: Content -->
+        <div class="hero-content">
+          <!-- Badge -->
+          <div class="hero-badge">
+            <span class="dot"></span>
+            Creative Designer • Web Developer • Digital Creator
+          </div>
 
-  <!-- ==========================================================================
-       HERO SECTION
-       Master reference design preserved strictly. No video in Hero.
-       ========================================================================== -->
-  <section class="hero-section" id="home">
-    <div class="container hero-grid">
-      <!-- Left Column: Content -->
-      <div class="hero-content">
-        <!-- Badge -->
-        <div class="hero-badge">
-          <span class="dot"></span>
-          Creative Designer • Web Developer • Digital Creator
+          <!-- Title -->
+          <h1 class="hero-title">
+            Transforming Ideas<br>
+            Into Stunning <span class="gold-accent">Digital</span><br>
+            <span class="gold-accent">Experiences</span>
+          </h1>
+
+          <!-- Subtitle -->
+          <p class="hero-description">
+            I'm Chaudhary Umair, a passionate creative designer and web developer. I help brands grow with modern design, powerful websites, and innovative digital solutions.
+          </p>
+
+          <!-- CTA Buttons -->
+          <div class="hero-actions">
+            <a href="portfolio.html" class="btn-primary">
+              View My Work
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+              </svg>
+            </a>
+            <a href="services.html" class="btn-secondary">
+              Explore Services
+            </a>
+          </div>
+
+          <!-- Stats Row -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <div class="stat-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 20h9"/>
+                  <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+                </svg>
+              </div>
+              <div class="stat-info">
+                <span class="stat-value">50+</span>
+                <span class="stat-label">Projects Completed</span>
+              </div>
+            </div>
+
+            <div class="stat-item">
+              <div class="stat-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                  <circle cx="9" cy="7" r="4"/>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
+              </div>
+              <div class="stat-info">
+                <span class="stat-value">20+</span>
+                <span class="stat-label">Happy Clients</span>
+              </div>
+            </div>
+
+            <div class="stat-item">
+              <div class="stat-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                  <polyline points="9 12 11 14 15 10"/>
+                </svg>
+              </div>
+              <div class="stat-info">
+                <span class="stat-value">100%</span>
+                <span class="stat-label">Client Satisfaction</span>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <!-- Title -->
-        <h1 class="hero-title">
-          Transforming Ideas<br>
-          Into Stunning <span class="gold-accent">Digital</span><br>
-          <span class="gold-accent">Experiences</span>
-        </h1>
+        <!-- Right Column: Visual Artwork Presentation (Preserved image artwork) -->
+        <div class="hero-visual">
+          <div class="hero-visual-card">
+            <img src="assets/hero-umair.png" alt="Chaudhary Umair at creative studio workstation" width="895" height="447" loading="eager" fetchpriority="high">
+            <!-- Floating Pills -->
+            <div class="floating-services">
+              <div class="floating-pill">
+                <span class="floating-pill-icon" aria-hidden="true">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+                </span>
+                Graphic Design
+              </div>
+              <div class="floating-pill">
+                <span class="floating-pill-icon" aria-hidden="true">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                </span>
+                Web Development
+              </div>
+              <div class="floating-pill">
+                <span class="floating-pill-icon" aria-hidden="true">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 3v18"/><path d="M14 9h7"/><path d="M14 15h7"/></svg>
+                </span>
+                UI/UX Design
+              </div>
+              <div class="floating-pill">
+                <span class="floating-pill-icon" aria-hidden="true">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
+                </span>
+                AI Video Creation
+              </div>
+              <div class="floating-pill">
+                <span class="floating-pill-icon" aria-hidden="true">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/></svg>
+                </span>
+                Branding &amp; More
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- Subtitle -->
-        <p class="hero-description">
-          I'm Chaudhary Umair, a passionate creative designer and web developer. I help brands grow with modern design, powerful websites, and innovative digital solutions.
-        </p>
+    <!-- ==========================================================================
+         2. STUDIO OVERVIEW / WHO WE ARE PREVIEW
+         Short brand introduction & value proposition
+         ========================================================================== -->
+    <section class="home-preview-section" id="studio-overview">
+      <div class="container">
+        <div class="studio-intro-grid">
+          <div class="studio-intro-text">
+            <span class="section-label">STUDIO OVERVIEW</span>
+            <h2 class="section-title">Independent Creative Studio with <span class="gold-text">Commercial Vision</span></h2>
+            <p class="section-subtitle" style="margin-bottom: 1.2rem;">
+              Chaudhary Umair Creative Studio is an independent multidisciplinary design and web engineering practice based in Ahmad Pur Sial, District Jhang, Punjab, Pakistan. We partner with ambitious businesses and brands worldwide to create distinguished digital experiences.
+            </p>
+            <p style="color: var(--color-warm-muted); line-height: 1.65; margin-bottom: 2rem;">
+              We merge aesthetic design principles with robust full-stack web engineering and cinematic AI visual storytelling. From bespoke logo systems to high-speed responsive web applications, every project is delivered with obsessive craft and strategic commercial purpose.
+            </p>
+            <a href="about.html" class="btn-secondary">
+              Learn More About The Studio
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+              </svg>
+            </a>
+          </div>
 
-        <!-- CTA Buttons -->
-        <div class="hero-actions">
-          <a href="#portfolio" class="btn-primary">
-            View My Work
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-              <line x1="5" y1="12" x2="19" y2="12"/>
-              <polyline points="12 5 19 12 12 19"/>
-            </svg>
-          </a>
-          <a href="#contact" class="btn-secondary">
-            Contact Me
-          </a>
+          <div class="intro-pillars">
+            <div class="intro-pillar-card">
+              <div class="intro-pillar-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="intro-pillar-title">Design &amp; Strategy</h3>
+                <p class="intro-pillar-desc">Cohesive visual languages, brand systems, and deliberate aesthetic choices that command market attention.</p>
+              </div>
+            </div>
+
+            <div class="intro-pillar-card">
+              <div class="intro-pillar-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"/>
+                  <polyline points="8 6 2 12 8 18"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="intro-pillar-title">Technical Performance</h3>
+                <p class="intro-pillar-desc">Clean, semantic, fast-loading code built on modern standards for maximum responsiveness and reliability.</p>
+              </div>
+            </div>
+
+            <div class="intro-pillar-card">
+              <div class="intro-pillar-icon" aria-hidden="true">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                  <circle cx="9" cy="7" r="4"/>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="intro-pillar-title">Direct Collaboration</h3>
+                <p class="intro-pillar-desc">Work directly with Chaudhary Umair with clear milestones, personal communication, and transparent delivery.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         3. CORE DISCIPLINES / SERVICES PREVIEW
+         Brief overview of all 8 studio services with link to services.html
+         ========================================================================== -->
+    <section class="home-preview-section" id="disciplines-overview">
+      <div class="container">
+        <div class="section-header-centered" style="text-align: center; max-width: 760px; margin: 0 auto 3rem;">
+          <span class="section-label">CORE DISCIPLINES</span>
+          <h2 class="section-title">Comprehensive Digital <span class="gold-text">Solutions</span></h2>
+          <p class="section-subtitle">
+            From initial concept to deployment, we provide end-to-end creative and web capabilities tailored for modern digital ecosystems.
+          </p>
         </div>
 
-        <!-- Stats Row -->
-        <div class="hero-stats">
-          <div class="stat-item">
-            <div class="stat-icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <div class="services-grid">
+          <!-- 1. Graphic Design -->
+          <div class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <path d="M12 20h9"/>
                 <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
               </svg>
             </div>
-            <div class="stat-info">
-              <span class="stat-value">50+</span>
-              <span class="stat-label">Projects Completed</span>
-            </div>
+            <h3 class="service-title">Graphic Design</h3>
+            <p style="font-size: 0.88rem; color: var(--color-warm-muted); line-height: 1.55;">
+              Logo design, brand identity systems, social media creative, print, and advertising graphics.
+            </p>
           </div>
 
-          <div class="stat-item">
-            <div class="stat-icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-                <circle cx="9" cy="7" r="4"/>
-                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
-                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+          <!-- 2. Website Development -->
+          <div class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="16 18 22 12 16 6"/>
+                <polyline points="8 6 2 12 8 18"/>
               </svg>
             </div>
-            <div class="stat-info">
-              <span class="stat-value">20+</span>
-              <span class="stat-label">Happy Clients</span>
-            </div>
+            <h3 class="service-title">Website Development</h3>
+            <p style="font-size: 0.88rem; color: var(--color-warm-muted); line-height: 1.55;">
+              High-performance business websites, e-commerce stores, responsive landing pages, and web apps.
+            </p>
           </div>
 
-          <div class="stat-item">
-            <div class="stat-icon" aria-hidden="true">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
-                <polyline points="9 12 11 14 15 10"/>
+          <!-- 3. UI/UX Design -->
+          <div class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                <path d="M9 3v18"/>
+                <path d="M14 9h7"/>
+                <path d="M14 15h7"/>
               </svg>
             </div>
-            <div class="stat-info">
-              <span class="stat-value">100%</span>
-              <span class="stat-label">Client Satisfaction</span>
+            <h3 class="service-title">UI/UX Design</h3>
+            <p style="font-size: 0.88rem; color: var(--color-warm-muted); line-height: 1.55;">
+              User flow wireframes, intuitive mobile/desktop app interfaces, interactive prototypes, and design systems.
+            </p>
+          </div>
+
+          <!-- 4. AI Video Creation -->
+          <div class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="23 7 16 12 23 17 23 7"/>
+                <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+              </svg>
             </div>
+            <h3 class="service-title">AI Video Creation</h3>
+            <p style="font-size: 0.88rem; color: var(--color-warm-muted); line-height: 1.55;">
+              Cinematic AI commercial reels, prompt engineering choreography, motion graphics, and visual production.
+            </p>
           </div>
-        </div>
-      </div>
 
-      <!-- Right Column: Visual Artwork Presentation (No video) -->
-      <div class="hero-visual">
-        <div class="hero-visual-card">
-          <img src="assets/hero-umair.png" alt="Chaudhary Umair at creative studio workstation" width="895" height="447" loading="eager" fetchpriority="high">
-          <!-- Floating Pills on Right Edge -->
-          <div class="floating-services">
-            <div class="floating-pill">
-              <span class="floating-pill-icon">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
-              </span>
-              Graphic Design
+          <!-- 5. Branding & Brand Identity -->
+          <div class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+              </svg>
             </div>
-            <div class="floating-pill">
-              <span class="floating-pill-icon">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
-              </span>
-              Web Development
+            <h3 class="service-title">Branding &amp; Brand Identity</h3>
+            <p style="font-size: 0.88rem; color: var(--color-warm-muted); line-height: 1.55;">
+              Complete visual identity packages, brand guideline books, typography hierarchies, and corporate stationery.
+            </p>
+          </div>
+
+          <!-- 6. Social Media Design -->
+          <div class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
             </div>
-            <div class="floating-pill">
-              <span class="floating-pill-icon">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M9 3v18"/><path d="M14 9h7"/><path d="M14 15h7"/></svg>
-              </span>
-              UI/UX Design
+            <h3 class="service-title">Social Media Design</h3>
+            <p style="font-size: 0.88rem; color: var(--color-warm-muted); line-height: 1.55;">
+              Campaign advertising suites, cohesive Instagram grid systems, and promotional banners.
+            </p>
+          </div>
+
+          <!-- 7. E-Commerce / Online Store -->
+          <div class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="9" cy="21" r="1"/>
+                <circle cx="20" cy="21" r="1"/>
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
+              </svg>
             </div>
-            <div class="floating-pill">
-              <span class="floating-pill-icon">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"/><rect x="1" y="5" width="15" height="14" rx="2" ry="2"/></svg>
-              </span>
-              AI Video Creation
+            <h3 class="service-title">E-Commerce / Online Store</h3>
+            <p style="font-size: 0.88rem; color: var(--color-warm-muted); line-height: 1.55;">
+              Digital storefronts, product catalogs, shopping cart journeys, and checkout conversion flows.
+            </p>
+          </div>
+
+          <!-- 8. Digital Creative Services -->
+          <div class="service-card">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+              </svg>
             </div>
-            <div class="floating-pill">
-              <span class="floating-pill-icon">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/></svg>
-              </span>
-              Branding & More
-            </div>
+            <h3 class="service-title">Digital Creative Services</h3>
+            <p style="font-size: 0.88rem; color: var(--color-warm-muted); line-height: 1.55;">
+              Creative art direction, bespoke digital content, multimodal production, and modern brand experiences.
+            </p>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
 
-
-  <!-- ==========================================================================
-       MY SERVICES / WHAT I DO
-       All 8 professional services represented throughout the studio
-       ========================================================================== -->
-  <section class="services-section" id="services">
-    <div class="container services-layout">
-      <!-- Section Intro Sticky Column -->
-      <div class="services-header">
-        <span class="section-label">MY SERVICES</span>
-        <h2 class="section-title">What <span class="gold-text">I Do</span></h2>
-        <p class="section-subtitle">
-          I offer complete digital solutions to help your brand grow and succeed in the online world.
-        </p>
-        <a href="#contact" class="btn-secondary" style="align-self: flex-start; margin-top: 0.5rem;">
-          Discuss Your Project
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
-            <line x1="5" y1="12" x2="19" y2="12"/>
-            <polyline points="12 5 19 12 12 19"/>
-          </svg>
-        </a>
-      </div>
-
-      <!-- 8 Service Cards Grid -->
-      <div class="services-grid">
-        <!-- 1. Graphic Design -->
-        <div class="service-card">
-          <div class="service-icon">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M12 20h9"/>
-              <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
-            </svg>
-          </div>
-          <h3 class="service-title">Graphic Design</h3>
-          <ul class="service-list">
-            <li>Logo Design</li>
-            <li>Brand Identity</li>
-            <li>Social Media Designs</li>
-            <li>Print & Advertising</li>
-          </ul>
-        </div>
-
-        <!-- 2. Website Development -->
-        <div class="service-card">
-          <div class="service-icon">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <polyline points="16 18 22 12 16 6"/>
-              <polyline points="8 6 2 12 8 18"/>
-            </svg>
-          </div>
-          <h3 class="service-title">Website Development</h3>
-          <ul class="service-list">
-            <li>Business Websites</li>
-            <li>E-commerce Stores</li>
-            <li>Landing Pages</li>
-            <li>Responsive Design</li>
-          </ul>
-        </div>
-
-        <!-- 3. UI/UX Design -->
-        <div class="service-card">
-          <div class="service-icon">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <rect x="3" y="3" width="18" height="18" rx="2"/>
-              <path d="M9 3v18"/>
-              <path d="M14 9h7"/>
-              <path d="M14 15h7"/>
-            </svg>
-          </div>
-          <h3 class="service-title">UI/UX Design</h3>
-          <ul class="service-list">
-            <li>User Flow & Wireframes</li>
-            <li>Mobile App Interfaces</li>
-            <li>Interactive Prototypes</li>
-            <li>Design Systems</li>
-          </ul>
-        </div>
-
-        <!-- 4. AI Video Creation -->
-        <div class="service-card">
-          <div class="service-icon">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <polygon points="23 7 16 12 23 17 23 7"/>
-              <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
-            </svg>
-          </div>
-          <h3 class="service-title">AI Video Creation</h3>
-          <ul class="service-list">
-            <li>Cinematic AI Commercials</li>
-            <li>AI Prompt Engineering</li>
-            <li>Motion Graphics</li>
-            <li>AI Visual Production</li>
-          </ul>
-        </div>
-
-        <!-- 5. Branding & Brand Identity -->
-        <div class="service-card">
-          <div class="service-icon">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
-            </svg>
-          </div>
-          <h3 class="service-title">Branding & Brand Identity</h3>
-          <ul class="service-list">
-            <li>Complete Visual Systems</li>
-            <li>Brand Guidelines Book</li>
-            <li>Corporate Stationery</li>
-            <li>Monogram & Foil Assets</li>
-          </ul>
-        </div>
-
-        <!-- 6. Social Media Design -->
-        <div class="service-card">
-          <div class="service-icon">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
-              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
-            </svg>
-          </div>
-          <h3 class="service-title">Social Media Design</h3>
-          <ul class="service-list">
-            <li>Campaign Advertising</li>
-            <li>Instagram Feed Systems</li>
-            <li>Promotional Banners</li>
-            <li>Editorial Story Layouts</li>
-          </ul>
-        </div>
-
-        <!-- 7. E-Commerce / Online Store -->
-        <div class="service-card">
-          <div class="service-icon">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <circle cx="9" cy="21" r="1"/>
-              <circle cx="20" cy="21" r="1"/>
-              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/>
-            </svg>
-          </div>
-          <h3 class="service-title">E-Commerce / Online Store</h3>
-          <ul class="service-list">
-            <li>Online Shops</li>
-            <li>Product Catalogs</li>
-            <li>Seamless Cart Journeys</li>
-            <li>Conversion Optimization</li>
-          </ul>
-        </div>
-
-        <!-- 8. Digital Creative Services -->
-        <div class="service-card">
-          <div class="service-icon">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
-            </svg>
-          </div>
-          <h3 class="service-title">Digital Creative Services</h3>
-          <ul class="service-list">
-            <li>Creative Art Direction</li>
-            <li>Bespoke Digital Content</li>
-            <li>Multimodal Production</li>
-            <li>Modern Brand Experiences</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- ==========================================================================
-       FEATURED PROJECTS / GALLERY (MY LATEST WORK)
-       8 Professional Category Filters + 9:16 Video Carousel + 12 Image Projects
-       ========================================================================== -->
-  <section class="gallery-section" id="portfolio">
-    <div class="container">
-      <!-- Section Header & Filter Tabs -->
-      <div class="gallery-header-row">
-        <div class="gallery-title-box">
-          <span class="section-label">FEATURED PROJECTS</span>
-          <h2 class="section-title">My Latest Work</h2>
-          <p class="section-subtitle">
-            Explore some of my recent projects. Each one is a result of creativity, strategy and a focus on delivering real value.
-          </p>
-        </div>
-
-        <!-- 8 Professional Category Filters -->
-        <div class="filter-tabs">
-          <button class="filter-btn active" data-filter="all">All</button>
-          <button class="filter-btn" data-filter="graphic-design">Graphic Design</button>
-          <button class="filter-btn" data-filter="web-development">Web Development</button>
-          <button class="filter-btn" data-filter="ui-ux">UI/UX Design</button>
-          <button class="filter-btn" data-filter="ai-video">AI Video</button>
-          <button class="filter-btn" data-filter="branding">Branding</button>
-          <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
-          <button class="filter-btn" data-filter="social-media">Social Media</button>
-        </div>
-      </div>
-
-      <!-- ====================================================================
-           PREMIUM 9:16 VERTICAL VIDEO CAROUSEL
-           Layout: ←   VIDEO   →
-           Strict 9:16 vertical video ratio, centered, one video at a time,
-           left/right arrows, play overlay & native controls on play, touch/swipe.
-           ==================================================================== -->
-      <div class="video-showcase-container" id="videoShowcase">
-        <div class="video-showcase-header">
-          <div class="video-showcase-tag">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-              <polygon points="23 7 16 12 23 17 23 7"/>
-              <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
-            </svg>
-            <span>Featured Video Reels • 9:16 Vertical Showcase</span>
-          </div>
-          <div class="video-counter" id="videoCounter">01 / 06</div>
-        </div>
-
-        <div class="carousel-stage">
-          <!-- LEFT Arrow Button (←) -->
-          <button class="carousel-nav-btn" id="prevVideoBtn" aria-label="Previous Video (←)" title="Previous Video (←)">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-              <line x1="19" y1="12" x2="5" y2="12"/>
-              <polyline points="12 19 5 12 12 5"/>
-            </svg>
-          </button>
-
-          <!-- Centered 9:16 Vertical Video Frame & Info -->
-          <div class="carousel-centerpiece">
-            <!-- 9:16 Vertical Frame -->
-            <div class="video-frame-container" id="videoFrame" title="Click to play / pause video">
-              <!-- Top Badge Overlay -->
-              <span class="video-badge-overlay">9:16 HD Vertical</span>
-
-              <!-- Video Element (strict 9:16 vertical ratio) -->
-              <video id="carouselVideo" playsinline preload="metadata" muted aria-label="Selected featured creative studio video reel">
-                Your browser does not support the video tag.
-              </video>
-
-              <!-- Play Button Overlay -->
-              <div class="play-overlay" id="playOverlay">
-                <div class="play-btn-circle" aria-label="Play Video">
-                  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
-                    <polygon points="5 3 19 12 5 21 5 3"/>
-                  </svg>
-                </div>
-              </div>
-
-              <!-- Audio / Sound Toggle -->
-              <button class="video-audio-toggle" id="videoAudioToggle" aria-label="Toggle Audio" title="Mute / Unmute Audio">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M11 5L6 9H2v6h4l5 4V5z"/>
-                  <line x1="23" y1="9" x2="17" y2="15"/>
-                  <line x1="17" y1="9" x2="23" y2="15"/>
-                </svg>
-              </button>
-            </div>
-
-            <!-- Video Details Card -->
-            <div class="video-info-card" id="videoInfoCard" aria-live="polite">
-              <span class="video-category-tag" id="videoCategory">AI Video Creation</span>
-              <h3 class="video-title" id="videoTitle">Cinematic AI Commercial & Creative Production</h3>
-              <p class="video-desc" id="videoDesc">
-                Cinematic AI-powered videos and creative visual content designed for modern brands, products and digital campaigns.
-              </p>
-              <!-- Carousel Indicator Dots -->
-              <div class="carousel-dots" id="carouselDots"></div>
-            </div>
-          </div>
-
-          <!-- RIGHT Arrow Button (→) -->
-          <button class="carousel-nav-btn" id="nextVideoBtn" aria-label="Next Video (→)" title="Next Video (→)">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-              <line x1="5" y1="12" x2="19" y2="12"/>
-              <polyline points="12 5 19 12 12 19"/>
-            </svg>
-          </button>
-        </div>
-      </div>
-
-      <!-- ====================================================================
-           THE 12 IMAGE PROJECTS GALLERY GRID
-           All 12 projects preserved, styled to master reference design
-           Each card showing Title, Category, Description, and View Project button
-           ==================================================================== -->
-      <div class="gallery-grid" id="galleryGrid">
-        <!-- Rendered dynamically by js/main.js -->
-      </div>
-    </div>
-  </section>
-
-
-  <!-- ==========================================================================
-       ABOUT ME SECTION
-       ========================================================================== -->
-  <section class="about-section" id="about">
-    <div class="container about-grid">
-      <div class="about-text">
-        <span class="section-label">ABOUT ME</span>
-        <div class="about-quote">Let's Build Something Great Together</div>
-        <h2 class="section-title">Design. Develop. <span class="gold-text">Create.</span></h2>
-        <p>
-          I am Chaudhary Umair, creative designer and full-stack web developer leading Chaudhary Umair Creative Studio based in Ahmad Pur Sial, District Jhang, Punjab, Pakistan.
-        </p>
-        <p>
-          Specializing in premium brand identity systems, high-performance responsive web applications, user-focused UI/UX interfaces, and cutting-edge AI video creative production. Every engagement is built with architectural precision, clean code, and commercial excellence.
-        </p>
-        <div class="skills-list">
-          <span class="skill-pill">Graphic Design</span>
-          <span class="skill-pill">Website Development</span>
-          <span class="skill-pill">UI/UX Design</span>
-          <span class="skill-pill">AI Video Creation</span>
-          <span class="skill-pill">Branding & Brand Identity</span>
-          <span class="skill-pill">Social Media Design</span>
-          <span class="skill-pill">E-Commerce / Online Store</span>
-          <span class="skill-pill">Digital Creative Services</span>
-        </div>
-        <div class="about-action" style="margin-top: 1.6rem;">
-          <a href="#contact" class="btn-secondary">
-            Let's Work Together
+        <div style="text-align: center; margin-top: 2.8rem;">
+          <a href="services.html" class="btn-primary">
+            View All Services &amp; Working Process
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
               <line x1="5" y1="12" x2="19" y2="12"/>
               <polyline points="12 5 19 12 12 19"/>
@@ -605,177 +493,269 @@
           </a>
         </div>
       </div>
+    </section>
 
-      <div class="about-stats-card">
-        <div class="about-metric">
-          <span class="about-metric-title">Completed Projects</span>
-          <span class="about-metric-value">50+</span>
-        </div>
-        <div class="about-metric">
-          <span class="about-metric-title">Satisfied Clients</span>
-          <span class="about-metric-value">20+</span>
-        </div>
-        <div class="about-metric">
-          <span class="about-metric-title">Client Satisfaction</span>
-          <span class="about-metric-value">100%</span>
-        </div>
-        <div class="about-metric">
-          <span class="about-metric-title">Studio Location</span>
-          <span class="about-metric-value" style="font-size: 1rem; color: var(--color-warm-white);">Ahmad Pur Sial, Jhang</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-
-  <!-- ==========================================================================
-       CONTACT / START A PROJECT SECTION
-       Updated contact information: 03021468799, chaudharyumair799@gmail.com
-       ========================================================================== -->
-  <section class="contact-section" id="contact">
-    <div class="container">
-      <div class="contact-box">
-        <!-- Left: Info & Direct Reach -->
-        <div class="contact-info">
-          <span class="section-label">GET IN TOUCH</span>
-          <h2 class="section-title">Let's Discuss <br><span class="gold-text">Your Project</span></h2>
+    <!-- ==========================================================================
+         4. FEATURED WORK / SELECTED PROJECTS PREVIEW
+         Curated preview linking to portfolio.html and gallery.html
+         ========================================================================== -->
+    <section class="home-preview-section" id="featured-work">
+      <div class="container">
+        <div class="section-header-centered" style="text-align: center; max-width: 760px; margin: 0 auto 1.5rem;">
+          <span class="section-label">SELECTED WORK</span>
+          <h2 class="section-title">Curated Work <span class="gold-text">&amp; Case Studies</span></h2>
           <p class="section-subtitle">
-            Ready to elevate your brand with modern digital experiences, premium websites, or cinematic AI visuals? Reach out directly.
+            A glimpse of recent creative projects crafted with strategic intent and precision execution.
           </p>
-
-          <div class="contact-channels">
-            <!-- Phone Direct -->
-            <a href="tel:03021468799" class="contact-card-item">
-              <div class="contact-card-icon">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
-                </svg>
-              </div>
-              <div class="contact-card-details">
-                <span class="contact-card-label">Direct Phone</span>
-                <span class="contact-card-value">03021468799</span>
-              </div>
-            </a>
-
-            <!-- WhatsApp Direct -->
-            <a href="https://wa.me/923021468799" target="_blank" rel="noopener noreferrer" class="contact-card-item">
-              <div class="contact-card-icon">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
-                </svg>
-              </div>
-              <div class="contact-card-details">
-                <span class="contact-card-label">WhatsApp Direct</span>
-                <span class="contact-card-value">03021468799</span>
-              </div>
-            </a>
-
-            <!-- Email -->
-            <a href="mailto:chaudharyumair799@gmail.com" class="contact-card-item">
-              <div class="contact-card-icon">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-                  <polyline points="22,6 12,13 2,6"/>
-                </svg>
-              </div>
-              <div class="contact-card-details">
-                <span class="contact-card-label">Email Address</span>
-                <span class="contact-card-value">chaudharyumair799@gmail.com</span>
-              </div>
-            </a>
-
-            <!-- Location -->
-            <div class="contact-card-item">
-              <div class="contact-card-icon">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
-                  <circle cx="12" cy="10" r="3"/>
-                </svg>
-              </div>
-              <div class="contact-card-details">
-                <span class="contact-card-label">Studio Location</span>
-                <span class="contact-card-value">Ahmad Pur Sial, District Jhang, Punjab, Pakistan</span>
-              </div>
-            </div>
-          </div>
         </div>
 
-        <!-- Right: Inquiry Form -->
-        <form class="contact-form" id="contactForm" novalidate>
-          <div class="form-group">
-            <label for="clientName" class="form-label">Your Name</label>
-            <input type="text" id="clientName" class="form-input" placeholder="Your full name" maxlength="100" autocomplete="name" required>
-          </div>
+        <div class="work-preview-grid">
+          <!-- Preview Card 1: Web Development -->
+          <a href="portfolio.html" class="work-preview-card">
+            <div class="work-preview-media">
+              <img src="assets/projects/project-1-technova.png" alt="TechNova Solutions - Web Development project by Chaudhary Umair" width="400" height="250" loading="lazy">
+            </div>
+            <div class="work-preview-body">
+              <span class="work-preview-tag">Web Development</span>
+              <h3 class="work-preview-title">TechNova Solutions</h3>
+              <p class="work-preview-desc">
+                Modern corporate website with custom interactions, clean architectural layout, and lightning-fast load times.
+              </p>
+              <span class="work-preview-link">
+                Explore in Portfolio
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                  <polyline points="12 5 19 12 12 19"/>
+                </svg>
+              </span>
+            </div>
+          </a>
 
-          <div class="form-group">
-            <label for="clientEmail" class="form-label">Email Address</label>
-            <input type="email" id="clientEmail" class="form-input" placeholder="e.g. name@company.com" maxlength="150" autocomplete="email" required>
-          </div>
+          <!-- Preview Card 2: Branding & UI/UX -->
+          <a href="portfolio.html" class="work-preview-card">
+            <div class="work-preview-media">
+              <img src="assets/projects/project-7-aura-digital.jpg" alt="AURA Digital Agency - Branding project by Chaudhary Umair" width="400" height="250" loading="lazy">
+            </div>
+            <div class="work-preview-body">
+              <span class="work-preview-tag">Branding &amp; UI/UX</span>
+              <h3 class="work-preview-title">AURA Digital Agency</h3>
+              <p class="work-preview-desc">
+                Full brand identity suite and responsive platform interface featuring deep contrast and minimalist typography.
+              </p>
+              <span class="work-preview-link">
+                Explore in Portfolio
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                  <polyline points="12 5 19 12 12 19"/>
+                </svg>
+              </span>
+            </div>
+          </a>
 
-          <div class="form-group">
-            <label for="serviceType" class="form-label">Service Interested In</label>
-            <select id="serviceType" class="form-select" required>
-              <option value="graphic-design">Graphic Design</option>
-              <option value="web-development">Website Development</option>
-              <option value="ui-ux">UI/UX Design</option>
-              <option value="ai-video">AI Video Creation</option>
-              <option value="branding">Branding & Brand Identity</option>
-              <option value="social-media">Social Media Design</option>
-              <option value="ecommerce">E-Commerce / Online Store</option>
-              <option value="digital-creative">Digital Creative Services</option>
-            </select>
-          </div>
+          <!-- Preview Card 3: AI Video Creation -->
+          <a href="gallery.html" class="work-preview-card">
+            <div class="work-preview-media">
+              <img src="assets/posters/video-1-cinematic-ai.jpg" alt="Cinematic AI Commercial Reels - AI Video Creation project by Chaudhary Umair" width="400" height="250" loading="lazy">
+            </div>
+            <div class="work-preview-body">
+              <span class="work-preview-tag">AI Video Creation</span>
+              <h3 class="work-preview-title">Cinematic AI Commercial Reels</h3>
+              <p class="work-preview-desc">
+                High-impact 9:16 vertical video reel series produced with advanced AI prompt direction, sound design, and color grading.
+              </p>
+              <span class="work-preview-link">
+                Watch in Gallery
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                  <line x1="5" y1="12" x2="19" y2="12"/>
+                  <polyline points="12 5 19 12 12 19"/>
+                </svg>
+              </span>
+            </div>
+          </a>
+        </div>
 
-          <div class="form-group">
-            <label for="projectBudget" class="form-label">Project Budget (USD)</label>
-            <select id="projectBudget" class="form-select" required>
-              <option value="" disabled selected>Select your budget tier</option>
-              <option value="under-500">&lt; $500 (Essential Design / Single Deliverable)</option>
-              <option value="500-1500">$500 - $1,500 (Standard Brand / Small Web Project)</option>
-              <option value="1500-3000">$1,500 - $3,000 (Complete Brand &amp; Web Platform)</option>
-              <option value="above-3000">$3,000+ (Full Studio Enterprise Retainer / Multi-Media)</option>
-              <option value="custom">Custom / To Be Discussed</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label for="projectDetails" class="form-label">Project Overview</label>
-            <textarea id="projectDetails" class="form-textarea" placeholder="Tell me about your goals, timeline, and vision..." maxlength="3000" required></textarea>
-          </div>
-
-          <button type="submit" class="btn-primary" style="justify-content: center; margin-top: 0.5rem; width: 100%;">
-            Send Project Inquiry
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <div style="display: flex; justify-content: center; gap: 1.2rem; flex-wrap: wrap;">
+          <a href="portfolio.html" class="btn-primary">
+            Browse All 12 Portfolio Projects
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
               <line x1="5" y1="12" x2="19" y2="12"/>
               <polyline points="12 5 19 12 12 19"/>
             </svg>
-          </button>
-
-          <!-- Safe Form Feedback / Direct Reach Action -->
-          <div class="form-feedback" id="formFeedback" role="alert" style="display: none;"></div>
-        </form>
+          </a>
+          <a href="gallery.html" class="btn-secondary">
+            Watch 9:16 Video Reels in Gallery
+          </a>
+        </div>
       </div>
-    </div>
-  </section>
-  </main>
+    </section>
 
+    <!-- ==========================================================================
+         5. CREATIVE PROCESS PREVIEW
+         4-step structured workflow overview
+         ========================================================================== -->
+    <section class="home-preview-section" id="process-overview">
+      <div class="container">
+        <div class="section-header-centered" style="text-align: center; max-width: 760px; margin: 0 auto 3rem;">
+          <span class="section-label">HOW WE WORK</span>
+          <h2 class="section-title">Our 4-Step <span class="gold-text">Creative Process</span></h2>
+          <p class="section-subtitle">
+            Every project follows a transparent, disciplined workflow designed for consistency and excellence.
+          </p>
+        </div>
+
+        <div class="about-approach-grid">
+          <div class="about-step-card">
+            <span class="about-step-num">01</span>
+            <h3 class="about-step-title">Understand</h3>
+            <p class="about-step-desc">
+              We listen to your goals, analyze your market positioning, and define project requirements and scope.
+            </p>
+          </div>
+
+          <div class="about-step-card">
+            <span class="about-step-num">02</span>
+            <h3 class="about-step-title">Plan</h3>
+            <p class="about-step-desc">
+              We establish wireframes, mood boards, design systems, and technical architecture before building.
+            </p>
+          </div>
+
+          <div class="about-step-card">
+            <span class="about-step-num">03</span>
+            <h3 class="about-step-title">Create</h3>
+            <p class="about-step-desc">
+              We design, build, test, and refine every deliverable with precision craftsmanship and attention to detail.
+            </p>
+          </div>
+
+          <div class="about-step-card">
+            <span class="about-step-num">04</span>
+            <h3 class="about-step-title">Deliver</h3>
+            <p class="about-step-desc">
+              We launch production-ready assets with quality assurance, handoff documentation, and ongoing support.
+            </p>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 2.8rem;">
+          <a href="about.html" class="btn-secondary">
+            Read Studio Philosophy &amp; Approach
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+              <line x1="5" y1="12" x2="19" y2="12"/>
+              <polyline points="12 5 19 12 12 19"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         6. WHY WORK WITH US PREVIEW
+         Value proposition & studio qualities
+         ========================================================================== -->
+    <section class="home-preview-section" id="why-choose-us">
+      <div class="container">
+        <div class="section-header-centered" style="text-align: center; max-width: 760px; margin: 0 auto 3rem;">
+          <span class="section-label">WHY WORK WITH US</span>
+          <h2 class="section-title">Crafted for <span class="gold-text">Real Commercial Impact</span></h2>
+          <p class="section-subtitle">
+            We combine technical excellence with disciplined visual craft so your business stands apart.
+          </p>
+        </div>
+
+        <div class="work-preview-grid">
+          <div class="service-card" style="padding: 2rem;">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                <polyline points="9 12 11 14 15 10"/>
+              </svg>
+            </div>
+            <h3 class="service-title">High Attention to Detail</h3>
+            <p style="font-size: 0.9rem; color: var(--color-warm-muted); line-height: 1.6;">
+              Pixel-level precision in design systems and clean semantic architecture in code. Every detail serves a distinct purpose.
+            </p>
+          </div>
+
+          <div class="service-card" style="padding: 2rem;">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>
+              </svg>
+            </div>
+            <h3 class="service-title">Client-Centric Communication</h3>
+            <p style="font-size: 0.9rem; color: var(--color-warm-muted); line-height: 1.6;">
+              Direct contact with Chaudhary Umair. Prompt responses, clear milestone updates, and transparent deadlines throughout every phase.
+            </p>
+          </div>
+
+          <div class="service-card" style="padding: 2rem;">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+              </svg>
+            </div>
+            <h3 class="service-title">Multidisciplinary Capabilities</h3>
+            <p style="font-size: 0.9rem; color: var(--color-warm-muted); line-height: 1.6;">
+              Unified solutions spanning brand identity, graphic design, full-stack web engineering, and cinematic AI video production.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         7. CONSULTATION & DIRECT CONTACT CTA BANNER
+         Verified business info: Phone/WhatsApp: 03021468799, Email: chaudharyumair799@gmail.com
+         Location: Ahmad Pur Sial, District Jhang, Punjab, Pakistan
+         ========================================================================== -->
+    <section class="home-preview-section" id="contact-cta">
+      <div class="container">
+        <div class="about-cta-box">
+          <span class="section-label">GET IN TOUCH</span>
+          <h2 class="about-cta-title">Ready to Discuss <span class="gold-text">Your Next Project?</span></h2>
+          <p class="about-cta-subtitle">
+            Whether you need a full brand identity, a high-converting website, or cinematic AI video content, let's connect and bring your vision to life.
+          </p>
+
+          <div class="about-cta-actions">
+            <a href="contact.html" class="btn-primary">
+              Start a Project Inquiry
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"/>
+                <polyline points="12 5 19 12 12 19"/>
+              </svg>
+            </a>
+            <a href="https://wa.me/923021468799" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+              Chat on WhatsApp (03021468799)
+            </a>
+            <a href="tel:03021468799" class="btn-secondary">
+              Call: 03021468799
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
 
   <!-- ==========================================================================
        FOOTER
+       Multi-page links: Home -> Services -> Portfolio -> Gallery -> About -> Contact
        ========================================================================== -->
   <footer class="site-footer">
     <div class="container">
       <div class="footer-top">
-        <a href="#home" class="brand-logo" aria-label="Chaudhary Umair Creative Studio Home">
+        <a href="index.html" class="brand-logo" aria-label="Chaudhary Umair Creative Studio Home">
           <img src="assets/logo.png" alt="Chaudhary Umair Creative Studio Logo" style="height: 38px;">
         </a>
 
         <ul class="footer-links">
           <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
 
@@ -798,34 +778,6 @@
       </div>
     </div>
   </footer>
-
-
-  <!-- ==========================================================================
-       INTERACTIVE LIGHTBOX MODAL FOR 12 IMAGE PROJECTS
-       ========================================================================== -->
-  <div class="lightbox-modal" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Project Preview">
-    <div class="lightbox-dialog">
-      <button class="lightbox-close" id="lightboxClose" aria-label="Close modal">✕</button>
-      <div class="lightbox-image-box">
-        <img src="" alt="Portfolio project preview" id="lightboxImage">
-      </div>
-      <div class="lightbox-content">
-        <span class="lightbox-category" id="lightboxCategory"></span>
-        <h3 class="lightbox-title" id="lightboxTitle"></h3>
-        <p class="lightbox-desc" id="lightboxDesc"></p>
-        <div class="lightbox-specs" id="lightboxSpecs"></div>
-        <div class="lightbox-action" style="margin-top: 1.4rem;">
-          <a href="#contact" class="btn-primary" id="lightboxInquireBtn">
-            Inquire About This Service
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true">
-              <line x1="5" y1="12" x2="19" y2="12"/>
-              <polyline points="12 5 19 12 12 19"/>
-            </svg>
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- JavaScript -->
   <script src="js/main.js"></script>

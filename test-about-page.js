@@ -145,15 +145,15 @@ console.log(`* Old Phone (03040501400) Absent: ${oldPhoneAbsent ? '✓ PASS' : '
 
 if (!phonePresent || !waPresent || !emailPresent || !locationPresent || !oldPhoneAbsent) totalErrors++;
 
-// 8. Internal Links Audit
+// 8. Internal Links Audit (Separate Multi-Page Architecture)
 console.log('\n[CHECK 8: INTERNAL LINKS AUDIT]');
-const hasServicesLink = html.includes('index.html#services');
-const hasContactLink = html.includes('index.html#contact');
-const hasHomeLink = html.includes('index.html#home');
+const hasServicesLink = html.includes('services.html') || html.includes('index.html#services');
+const hasContactLink = html.includes('contact.html') || html.includes('index.html#contact');
+const hasHomeLink = html.includes('index.html') || html.includes('index.html#home');
 
-console.log(`* Link to Services (index.html#services): ${hasServicesLink ? '✓ PASS' : '✗ FAIL'}`);
-console.log(`* Link to Contact (index.html#contact): ${hasContactLink ? '✓ PASS' : '✗ FAIL'}`);
-console.log(`* Link to Home (index.html#home): ${hasHomeLink ? '✓ PASS' : '✗ FAIL'}`);
+console.log(`* Link to Services (services.html): ${hasServicesLink ? '✓ PASS' : '✗ FAIL'}`);
+console.log(`* Link to Contact (contact.html): ${hasContactLink ? '✓ PASS' : '✗ FAIL'}`);
+console.log(`* Link to Home (index.html): ${hasHomeLink ? '✓ PASS' : '✗ FAIL'}`);
 
 if (!hasServicesLink || !hasContactLink || !hasHomeLink) totalErrors++;
 
